@@ -11,8 +11,8 @@ const Header = () => {
       <div className="container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vyzMmMBsjsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div className="buttons">
-          <a href="#project">intro</a>
-          <a href="#contact" className="cta">
+          <a href="#about">intro</a>
+          <a href="#projects" className="cta">
            the project
           </a>
         </div>
