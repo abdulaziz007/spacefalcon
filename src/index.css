@@ -1,0 +1,46 @@
+
+
+@font-face {
+  font-family: "stv";
+  src: local("stv"),
+   url("./fonts/stv-bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+  
+
+
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Jomhuria&display=swap'); */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #252934;
+  background: #fafafa;
+  font-size: 62.5%;
+  font-family: 'stv', sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:visited {
+  color: #252934;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+a:hover,
+a:active {
+  color: #f300b4;
+}
